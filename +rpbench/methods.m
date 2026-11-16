@@ -1,0 +1,9 @@
+function m=methods()
+%METHODS The sixteen plotted configurations, in the paired paper legend order.
+names={'SVD','RP-SS','RP-KronSS','MP-RP-SS','MP-RP-KronSS', ...
+ 'KRP-SS','KRP-KronSS','Shift-SS','Shift-KronSS', ...
+ 'Stable-MLN-SS','Stable-MLN-KronSS','RTSMS-SS','RTSMS-KronSS', ...
+ 'MSK-SS','MLB-SS','MLB-KronSS'};
+m=struct('name',names,'proposed',false,'classical',false);
+for k=1:numel(m),m(k).proposed=startsWith(names{k},'RP-')||startsWith(names{k},'MP-RP-');m(k).classical=strcmp(names{k},'SVD');end
+end

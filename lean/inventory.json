@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "label": "thm:tensor-rp",
+      "number": "3.1",
+      "kind": "theorem"
+    },
+    {
+      "label": "thm:tensor-mp",
+      "number": "3.2",
+      "kind": "theorem"
+    },
+    {
+      "label": "lem:conditioning",
+      "number": "4.1",
+      "kind": "lemma"
+    },
+    {
+      "label": "thm:rp",
+      "number": "4.2",
+      "kind": "proposition"
+    },
+    {
+      "label": "thm:rp-refined",
+      "number": "4.3",
+      "kind": "theorem"
+    },
+    {
+      "label": "lem:retained-subspace-error",
+      "number": "4.4",
+      "kind": "lemma"
+    },
+    {
+      "label": "prop:mp-recovery",
+      "number": "5.1",
+      "kind": "theorem"
+    },
+    {
+      "label": "prop:rp-backward-stability",
+      "number": "A.1",
+      "kind": "proposition"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "thm:tensor-rp": ["RPHOSVD.Tensor.tensorRPClaim", "RPHOSVD.Tensor.tensorRP", "RPHOSVD/TensorLift.lean"],
+  "thm:tensor-mp": ["RPHOSVD.Tensor.tensorMPClaim", "RPHOSVD.Tensor.tensorMP", "RPHOSVD/TensorMixedLift.lean"],
+  "lem:conditioning": ["RPHOSVD.Paper.conditioningClaim", "RPHOSVD.Paper.conditioning", "RPHOSVD/Paper.lean"],
+  "thm:rp": ["RPHOSVD.Projection.projectionClaim", "RPHOSVD.Projection.projection", "RPHOSVD/ExactProjection.lean"],
+  "thm:rp-refined": ["RPHOSVD.Projection.refinedProjectionClaim", "RPHOSVD.Projection.refinedProjection", "RPHOSVD/Refined.lean"],
+  "lem:retained-subspace-error": ["RPHOSVD.Projection.retainedSubspaceClaim", "RPHOSVD.Projection.retainedSubspace", "RPHOSVD/Retained.lean"],
+  "prop:mp-recovery": ["RPHOSVD.Paper.mixedClaim", "RPHOSVD.Paper.mixed", "RPHOSVD/Paper.lean"],
+  "prop:rp-backward-stability": ["RPHOSVD.Mixed.BackwardStabilityBound", "RPHOSVD.Mixed.backwardStability", "RPHOSVD/BackwardStability.lean"]
+}

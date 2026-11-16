@@ -1,0 +1,6 @@
+% Figure 1: same S01 input and HOSVD SS calls as the fixed-volume experiment.
+root=fileparts(fileparts(fileparts(mfilename('fullpath'))));addpath(root);
+run_experiment('shapes','Frameworks',{'H'},'Methods', ...
+ {'SVD','RP-SS','MP-RP-SS','KRP-SS','Shift-SS','Stable-MLN-SS','RTSMS-SS','MSK-SS','MLB-SS'}, ...
+ 'InputIds',{'cp-shape200-S01'},'Plot',false);
+plot_intro_comparison;

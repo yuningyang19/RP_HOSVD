@@ -1,0 +1,15 @@
+# Local data, experiment outputs and MEX builds.
+/data/*
+!/data/README.md
+/results/
+/external/
+*.mat
+*.csv
+*.png
+*.tif
+*.tiff
+*.zip
+*.pdf
+*.mex*
+*.asv
+.DS_Store
